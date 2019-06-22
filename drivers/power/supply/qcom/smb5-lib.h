@@ -103,6 +103,7 @@ enum {
 	WEAK_ADAPTER_WA			= BIT(1),
 	MOISTURE_PROTECTION_WA		= BIT(2),
 	USBIN_OV_WA			= BIT(3),
+	CHG_TERMINATION_WA		= BIT(4),
 };
 
 enum {
@@ -344,6 +345,7 @@ struct smb_charger {
 	struct work_struct	pl_update_work;
 	struct work_struct	jeita_update_work;
 	struct work_struct	moisture_protection_work;
+	struct work_struct	chg_termination_work;
 	struct delayed_work	ps_change_timeout_work;
 	struct delayed_work	clear_hdc_work;
 	struct delayed_work	icl_change_work;
@@ -354,6 +356,7 @@ struct smb_charger {
 
 	/* alarm */
 	struct alarm		moisture_protection_alarm;
+	struct alarm		chg_termination_alarm;
 
 	/* pd */
 	int			voltage_min_uv;
