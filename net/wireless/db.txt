@@ -25,14 +25,14 @@ country AE: DFS-ETSI
 
 country AF: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country AI: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country AL: DFS-ETSI
@@ -92,8 +92,8 @@ country AU: DFS-FCC
 
 country AW: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country AZ: DFS-ETSI
@@ -150,8 +150,8 @@ country BH:
 
 country BL: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country BM: DFS-FCC
@@ -192,14 +192,14 @@ country BS: DFS-FCC
 
 country BT: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country BY: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country BZ:
@@ -374,8 +374,8 @@ country ES: DFS-ETSI
 
 country ET: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country FI: DFS-ETSI
@@ -440,20 +440,20 @@ country GH: DFS-FCC
 
 country GI: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country GL: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country GP: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country GR: DFS-ETSI
@@ -467,8 +467,8 @@ country GR: DFS-ETSI
 
 country GT: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country GU: DFS-FCC
@@ -547,15 +547,17 @@ country IL: DFS-ETSI
 	# 60 gHz band channels 1-4, base on Etsi En 302 567
 	(57000 - 66000 @ 2160), (40)
 
-country IN:
-	(2402 - 2482 @ 40), (20)
-	(5170 - 5330 @ 160), (23)
-	(5735 - 5835 @ 80), (33)
+country IN: DFS-ETSI
+	(2402 - 2482 @ 40), (30)
+	(5170 - 5250 @ 80), (30), AUTO-BW
+	(5250 - 5330 @ 80), (24), DFS, AUTO-BW
+	(5490 - 5730 @ 160), (24), DFS
+	(5735 - 5875 @ 80), (30)
 
 country IQ: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country IS: DFS-ETSI
@@ -593,10 +595,10 @@ country JO:
 	(57000 - 66000 @ 2160), (40)
 
 country JP: DFS-JP
-	(2402 - 2482 @ 40), (20)
+	(2402 - 2482 @ 40), (23)
 	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
-	(5250 - 5330 @ 80), (26), DFS, AUTO-BW, NO-OUTDOOR
-	(5490 - 5710 @ 160), (26), DFS
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
+	(5490 - 5710 @ 160), (23), DFS
 	# 60 gHz band channels 1-4
 	(57240 - 65880 @ 2160), (40)
 
@@ -608,8 +610,8 @@ country KE: DFS-ETSI
 
 country KH: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country KN: DFS-FCC
@@ -676,8 +678,8 @@ country LK: DFS-FCC
 
 country LS: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country LT: DFS-ETSI
@@ -737,8 +739,8 @@ country ME: DFS-ETSI
 
 country MF: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country MH: DFS-FCC
@@ -785,8 +787,8 @@ country MQ: DFS-ETSI
 
 country MR: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country MT: DFS-ETSI
@@ -800,8 +802,8 @@ country MT: DFS-ETSI
 
 country MU: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5730 @ 160), (30), DFS
 	(5735 - 5835 @ 80), (30)
 
@@ -813,8 +815,8 @@ country MV: DFS-ETSI
 
 country MW: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country MX: DFS-FCC
@@ -890,8 +892,8 @@ country NZ: DFS-FCC
 
 country OM: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country PA:
@@ -998,8 +1000,8 @@ country QA: DFS-ETSI
 
 country RE: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country RO: DFS-ETSI
@@ -1088,8 +1090,8 @@ country SN:
 
 country SR: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country SV: DFS-FCC
@@ -1107,14 +1109,14 @@ country TC: DFS-FCC
 
 country TD: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country TG: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 40), (23)
-	(5250 - 5330 @ 40), (23), DFS
+	(5170 - 5250 @ 40), (23), NO-OUTDOOR
+	(5250 - 5330 @ 40), (23), DFS, NO-OUTDOOR
 	(5490 - 5710 @ 40), (30), DFS
 
 country TH: DFS-FCC
@@ -1245,14 +1247,14 @@ country VU: DFS-FCC
 
 country WF: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country WS: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 40), (23)
-	(5250 - 5330 @ 40), (23), DFS
+	(5170 - 5250 @ 40), (23), NO-OUTDOOR
+	(5250 - 5330 @ 40), (23), DFS, NO-OUTDOOR
 	(5490 - 5710 @ 40), (30), DFS
 
 country XA: DFS-JP
@@ -1267,8 +1269,8 @@ country YE:
 
 country YT: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
 
 country ZA: DFS-FCC
@@ -1282,6 +1284,6 @@ country ZA: DFS-FCC
 
 country ZW: DFS-ETSI
 	(2402 - 2482 @ 40), (20)
-	(5170 - 5250 @ 80), (23), AUTO-BW
-	(5250 - 5330 @ 80), (23), DFS, AUTO-BW
+	(5170 - 5250 @ 80), (23), AUTO-BW, NO-OUTDOOR
+	(5250 - 5330 @ 80), (23), DFS, AUTO-BW, NO-OUTDOOR
 	(5490 - 5710 @ 160), (30), DFS
