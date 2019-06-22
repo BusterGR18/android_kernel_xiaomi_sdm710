@@ -991,6 +991,15 @@ again:
 		flush_tlb_range(vma, orig_addr, end);
 
 	arch_leave_lazy_mmu_mode();
+
+	/*
+	 * Prevent the page fault handler to copy the page while stale tlb entry
+	 * are still not flushed.
+	 */
+	if (IS_ENABLED(CONFIG_SPECULATIVE_PAGE_FAULT) &&
+	    is_cow_mapping(vma->vm_flags))
+		flush_tlb_range(vma, orig_addr, end);
+
 	spin_unlock(src_ptl);
 	pte_unmap(orig_src_pte);
 	add_mm_rss_vec(dst_mm, rss);
